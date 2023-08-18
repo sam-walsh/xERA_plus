@@ -1,7 +1,8 @@
 README.md
 Project Title: xERA_plus
 
-This project is a comprehensive analysis of baseball statistics, specifically focusing on the Expected Earned Run Average (xERA) metric. The project uses data from the years 2015 to 2023, and applies machine learning techniques to predict run values.
+This project is focused on improving the Expected Earned Run Average (xERA) metric. The project uses data from the years 2015 to 2023, and applies machine learning techniques to predict run values. It also differs from baseball-savants version of xERA by not using an xwOBA conversion as to [better capture the effect of double plays](https://sam-walsh.github.io/posts/double-plays/).
+
 Data
 
 The data used in this project is stored in CSV files, each representing a different year from 2015 to 2023. Each file contains detailed statistics for each game played in that year.
