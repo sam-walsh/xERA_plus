@@ -39,15 +39,3 @@ The analysis includes:
 Results
 
 The results of the analysis are displayed in the notebook itself, with various tables showing the computed and predicted run values for different players and events.
-
-Future Work
-
-The project can be extended by incorporating more data, using different machine learning models for prediction, and performing more detailed analysis on the data.
-
-Contact
-
-For any queries or suggestions, please feel free to reach out.
-
----
-
-Note: This is a basic template for your README. You may want to add more sections like 'Contributing', 'License', etc., depending on your project's needs.
