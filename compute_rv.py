@@ -12,6 +12,7 @@ def compute_re24(df: pd.DataFrame) -> pd.DataFrame:
     """
     
     # Compute runs scored in a play
+    df = df.loc[df['inning'] <= 9] # Remove extra innings      
     df = df.sort_values(by=['game_pk', 'at_bat_number', 'pitch_number'], ascending=True)
     df['runs_scored_play'] = df['post_bat_score'] - df['bat_score']
     
